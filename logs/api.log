@@ -1,0 +1,119 @@
+2024-06-23 13:48:16.326 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 13:50:12.849 | INFO     | api.auth.views:post:28 - User registered: Hasnain
+2024-06-23 13:51:36.261 | ERROR    | api:handle_exception:28 - An error occurred: There is no current event loop in thread 'Thread-2 (process_request_thread)'.
+2024-06-23 13:52:04.735 | ERROR    | api:handle_exception:28 - An error occurred: Object of type coroutine is not JSON serializable
+2024-06-23 13:52:17.616 | ERROR    | api:handle_exception:28 - An error occurred: Object of type coroutine is not JSON serializable
+2024-06-23 13:55:56.623 | ERROR    | api:handle_exception:28 - An error occurred: Object of type coroutine is not JSON serializable
+2024-06-23 13:56:00.282 | ERROR    | api:handle_exception:28 - An error occurred: Object of type coroutine is not JSON serializable
+2024-06-23 13:56:16.025 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 13:57:07.008 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 13:57:07.009 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:01:19.074 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 14:10:05.871 | INFO     | api.auth.views:post:30 - User registered: string
+2024-06-23 14:10:05.871 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:11:41.343 | INFO     | api.auth.views:post:30 - User registered: {'username': 'string', 'password': b'$2b$12$U4O/MXAHG1aGIKg0tm7hVuUHQ36nKx4gAP3rqjl0z.9XIUKRQx3ti', '_id': ObjectId('6677e6cd7ea09d07736ff3b8')}
+2024-06-23 14:11:41.344 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:24:48.996 | INFO     | api.auth.views:post:30 - User registered: Hasnain
+2024-06-23 14:33:34.517 | ERROR    | api:handle_exception:28 - An error occurred: Incorrect padding
+2024-06-23 14:34:18.291 | ERROR    | api:handle_exception:28 - An error occurred: 'bytes' object has no attribute 'encode'
+2024-06-23 14:34:48.649 | INFO     | api.auth.views:post:30 - User registered: string
+2024-06-23 14:52:19.932 | INFO     | api.auth.views:post:30 - User registered: string
+2024-06-23 14:52:34.798 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 14:52:34.799 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:53:43.935 | ERROR    | api:handle_exception:28 - An error occurred: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2024-06-23 14:56:01.341 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 14:56:01.343 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:57:03.967 | INFO     | api.auth.views:post:29 - User registered: string
+2024-06-23 14:57:03.969 | ERROR    | api:handle_exception:28 - An error occurred: Object of type bytes is not JSON serializable
+2024-06-23 14:57:38.042 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 15:02:18.068 | INFO     | api.auth.views:post:29 - User registered: string
+2024-06-23 15:06:48.279 | INFO     | api.auth.views:post:41 - User logged in: string
+2024-06-23 15:06:48.280 | ERROR    | api:handle_exception:28 - An error occurred: Object of type Response is not JSON serializable
+2024-06-23 15:09:24.712 | ERROR    | api:handle_exception:28 - An error occurred: 'dict' object is not callable
+2024-06-23 15:09:44.111 | INFO     | api.auth.views:post:41 - User logged in: string
+2024-06-23 15:09:44.112 | ERROR    | api:handle_exception:28 - An error occurred: Object of type Response is not JSON serializable
+2024-06-23 15:11:00.576 | WARNING  | api.auth.views:post:43 - Failed login attempt for username: string
+2024-06-23 15:11:00.577 | ERROR    | api:handle_exception:28 - An error occurred: Object of type Response is not JSON serializable
+2024-06-23 15:12:01.522 | WARNING  | api.auth.views:post:43 - Failed login attempt for username: string
+2024-06-23 15:13:36.323 | WARNING  | api.auth.views:post:43 - Failed login attempt for username: string
+2024-06-23 15:13:56.513 | INFO     | api.auth.views:post:41 - User logged in: string
+2024-06-23 15:20:09.602 | INFO     | api.auth.views:get:52 - Accessed protected route by user: 6677f2aaea8c010266a4255d
+2024-06-23 15:20:09.603 | ERROR    | api:handle_exception:28 - An error occurred: Object of type Response is not JSON serializable
+2024-06-23 15:20:50.614 | INFO     | api.auth.views:get:52 - Accessed protected route by user: 6677f2aaea8c010266a4255d
+2024-06-23 15:39:06.919 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:39:47.985 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:40:03.683 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:40:25.663 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:40:36.235 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:41:48.282 | INFO     | api.auth.views:post:28 - User registered: string
+2024-06-23 15:41:54.032 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:43:07.851 | ERROR    | api:handle_exception:28 - An error occurred: 1 validation error for AuthorizedUser
+access_token
+  Field required [type=missing, input_value={'username': 'string', 'password': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-06-23 15:44:10.877 | INFO     | api.auth.views:post:43 - User logged in: string
+2024-06-23 15:46:52.142 | INFO     | api.auth.views:post:43 - User logged in: string
+2024-06-23 15:46:53.961 | INFO     | api.auth.views:post:43 - User logged in: string
+2024-06-23 15:47:39.429 | INFO     | api.auth.views:post:43 - User logged in: string
+2024-06-23 15:47:53.636 | INFO     | api.auth.views:post:43 - User logged in: string
+2024-06-23 15:48:35.398 | INFO     | api.auth.views:get:54 - Accessed protected route by user: 6677fbec92ad829161f4632f
+2024-06-23 23:54:57.918 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-23 23:56:51.900 | INFO     | api.candidate.views:post:33 - Created a new candidate profile in the candidate collection: {'first_name': 'Hasnain', 'last_name': 'Nafees', 'email': 'string', 'created_at': datetime.datetime(2024, 6, 23, 18, 51, 9, 811000, tzinfo=TzInfo(UTC))}
+2024-06-23 23:56:51.901 | ERROR    | api:handle_exception:29 - An error occurred: Object of type datetime is not JSON serializable
+2024-06-23 23:59:12.189 | INFO     | api.candidate.views:post:33 - Created a new candidate profile in the candidate collection: {'first_name': 'Shahbaz', 'last_name': 'Nafees', 'email': 'string', 'created_at': datetime.datetime(2024, 6, 23, 18, 51, 9, 811000, tzinfo=TzInfo(UTC))}
+2024-06-23 23:59:12.189 | ERROR    | api:handle_exception:29 - An error occurred: Object of type datetime is not JSON serializable
+2024-06-24 00:00:46.461 | INFO     | api.candidate.views:post:33 - Created a new candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'string', 'created_at': datetime.datetime(2024, 6, 23, 18, 51, 9, 811000, tzinfo=TzInfo(UTC))}
+2024-06-24 00:02:46.237 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 00:03:30.756 | ERROR    | api:handle_exception:29 - An error occurred: '1' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+2024-06-24 00:03:40.823 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 00:04:03.433 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 00:04:38.205 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 00:09:11.540 | INFO     | api.candidate.views:post:33 - Created a new candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Muawiyah', 'email': 'string', 'created_at': '2024-06-24 00:07:48'}
+2024-06-24 00:13:57.581 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 00:15:03.482 | INFO     | api.candidate.views:post:32 - Created a new candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'string', 'created_at': '2024-06-24 00:14:51'}
+2024-06-24 00:20:34.184 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 00:53:08.542 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 00:54:50.648 | INFO     | api.candidate.views:delete:68 - Deleted candidate profile with id: 66787080d4444c6fb840a47e
+2024-06-24 00:56:22.763 | INFO     | api.candidate.views:put:58 - Updated candidate profile in the candidate collection: {'_id': ObjectId('66786ff30012d05dcfe0adcc'), 'first_name': 'Mir', 'last_name': 'Momin', 'email': 'momin@gmail.com', 'created_at': datetime.datetime(2024, 6, 23, 18, 51, 9, 811000)}
+2024-06-24 00:56:22.764 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 01:08:06.539 | ERROR    | api:handle_exception:29 - An error occurred: 'dict' object has no attribute 'model_dump'
+2024-06-24 01:10:04.967 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:10:41.861 | INFO     | api.candidate.views:put:60 - Updated candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'momin@gmail.com', 'created_at': '2024-06-24 01:09:17'}
+2024-06-24 01:11:05.164 | INFO     | api.candidate.views:put:60 - Updated candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'momin@gmail.com', 'created_at': datetime.datetime(2024, 6, 24, 1, 11, 1)}
+2024-06-24 01:24:39.558 | INFO     | api.candidate.views:put:99 - Updated candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'momin@gmail.com', 'created_at': datetime.datetime(2024, 6, 24, 1, 19, 58)}
+2024-06-24 01:24:45.083 | INFO     | api.candidate.views:put:99 - Updated candidate profile in the candidate collection: {'first_name': 'Mir', 'last_name': 'Momin', 'email': 'momin@gmail.com', 'created_at': datetime.datetime(2024, 6, 24, 1, 19, 58)}
+2024-06-24 01:25:15.064 | ERROR    | api:handle_exception:29 - An error occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-24 01:25:39.079 | ERROR    | api:handle_exception:29 - An error occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-24 01:27:03.857 | ERROR    | api:handle_exception:29 - An error occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-24 01:28:13.888 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:28:46.360 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 01:29:14.648 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 01:31:47.030 | ERROR    | api:handle_exception:29 - An error occurred: 'fist_name'
+2024-06-24 01:32:05.326 | ERROR    | api:handle_exception:29 - An error occurred: Object of type ObjectId is not JSON serializable
+2024-06-24 01:33:00.542 | ERROR    | api:handle_exception:29 - An error occurred: Object of type datetime is not JSON serializable
+2024-06-24 01:33:14.183 | ERROR    | api:handle_exception:29 - An error occurred: Object of type datetime is not JSON serializable
+2024-06-24 01:43:28.947 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:53:49.441 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:56:43.865 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:56:46.157 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 01:56:48.274 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 02:09:57.530 | INFO     | api.auth.views:post:44 - User logged in: string
+2024-06-24 02:17:49.105 | INFO     | api.auth.views:post:44 - User logged in: string
